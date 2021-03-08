@@ -2,8 +2,8 @@ on: [push]
 name: build
 jobs:
   runhaskell:
-    name: Hello World
-    runs-on: ubuntu-latest # or macOS-latest, or windows-latest
+    name: Output
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: haskell/actions/setup@v1
